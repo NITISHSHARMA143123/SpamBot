@@ -9,9 +9,9 @@
         "RiZoeLXSpam",
         "SpamBots"
       ],   
-  "repository": "https://github.com/RiZoeLX/SpamX",
-  "website": "https://github.com/RiZoeLX",
-  "success_url": "https://t.me/RiZoeLX",
+  "repository": "https://github.com/NITISHSHARMA143123/SpamBot",
+  "website": "https://github.com/NITISHSHARMA143123/SpamBot",
+  "success_url": "https://t.me/its_arryan",
   "env": {
        "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
