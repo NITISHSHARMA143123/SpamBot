@@ -13,14 +13,14 @@ from time import time
 from datetime import datetime
 
 pongg = PING_MSG if ALIVE_PIC else "ᴠᴇɴᴏᴍ X sᴘᴀᴍ"
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/47ee1b8464ab1fc5613f3.jpg"
 Alivemsg = ALIVE_MSG if ALIVE_MSG else "𝐕𝐞𝐧𝐨𝐦 𝗫 𝐒𝐩𝐚𝐦."
 
 rizoel = f"✯ {Alivemsg} ✯\n\n"
 rizoel += f"═══════════════════\n"
 rizoel += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
 rizoel += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-rizoel += f"• **ᴠᴇɴᴏᴍXsᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{venomversion}`\n"
+rizoel += f"• **ᴠᴇɴᴏᴍXsᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n"
 rizoel += f"═══════════════════\n\n"   
 
                                   
