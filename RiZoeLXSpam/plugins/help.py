@@ -34,7 +34,7 @@ async def help(event):
             Button.inline("• Extra •", data="extra"),
            ],
            [    
-            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/RiZoeLX")
+            Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/Lily_X_bots")
            ],
            ],
            )              
@@ -64,7 +64,7 @@ ii) {hl}leave : Type in the Group bot will auto leave that group
 **Packspam**: Sticker Pack Spam
 i) {hl}packspam (replying to any sticker)
 
-**© @RiZoeLX**
+**© @its_arryan**
 """
 
                  
@@ -93,7 +93,7 @@ i) {hl}dreplyraid <replying to user>
 ii) {hl}dreplyraid <username>
 
 
-**© @RiZoeLX**
+**© @its_arryan**
 """
 
 spam_msg = f"""
@@ -122,7 +122,7 @@ i) {hl}pornspam <count>
 command:
 i) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
-** © @RiZoeLX**
+** © @its_arryan**
 """                     
            
            
@@ -155,7 +155,7 @@ async def helpback(event):
         )           
    else:
         Alert = (
-                "Noob !! Make Your Own RiZoeL X Spam Bots !!"
+                "Noob !! Make Your Own Venom X Spam Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
       
@@ -183,7 +183,7 @@ async def help_spam(event):
             ) 
    else:
         Alert = (
-                "Noob !! Make Your Own RiZoeL X Spam Bots !!"
+                "Noob !! Make Your Own Venom X Spam Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
                  
@@ -210,7 +210,7 @@ async def help_raid(event):
             )  
      else:
         Alert = (
-                "Noob !! Make Your Own RiZoeL X Spam Bots !!"
+                "Noob !! Make Your Own Venom X Spam Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
        
@@ -238,7 +238,7 @@ async def help_extra(event):
             )
    else:
         Alert = (
-                "Noob !! Make Your Own RiZoeL X Spam Bots !!"
+                "Noob !! Make Your Own Venom X Spam Bots !!"
             )
         await event.answer(Alert, cache_time=0, alert=True)
 
