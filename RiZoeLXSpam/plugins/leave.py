@@ -36,7 +36,7 @@ async def leave(e):
         else:
              bc = e.chat_id
              Xd = int(bc)
-             text = "I'm Leaving This Group......"
+             text = "ᴍᴀᴀ ᴄʜᴜᴅᴀᴏ ᴍᴀɪ ᴄʜᴀʟᴀ ʏᴀʜᴀ sᴇ......"
              if e.is_private:
                   dik = f"You Can't Do this Here !! \n\n {hl}leave <Channel or Chat ID> \n {hl}leave : type in the group bot will auto leave that group !"
                   await e.reply(dik, parse_mode=None, link_preview=None )
