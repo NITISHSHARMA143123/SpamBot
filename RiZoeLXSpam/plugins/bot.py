@@ -12,15 +12,15 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-pongg = PING_MSG if ALIVE_PIC else "ʀɪᴢᴏᴇʟ X sᴘᴀᴍ"
+pongg = PING_MSG if ALIVE_PIC else "ᴠᴇɴᴏᴍ X sᴘᴀᴍ"
 RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
-Alivemsg = ALIVE_MSG if ALIVE_MSG else "𝗥𝗶𝗭𝗼𝗲𝗟 𝗫 𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲."
+Alivemsg = ALIVE_MSG if ALIVE_MSG else "𝐕𝐞𝐍𝐨𝐦 𝗫 𝗦𝗽𝗮𝗺."
 
 rizoel = f"✯ {Alivemsg} ✯\n\n"
 rizoel += f"═══════════════════\n"
 rizoel += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
 rizoel += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-rizoel += f"• **ʀɪᴢᴏᴇʟXsᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n"
+rizoel += f"• **ᴠᴇɴᴏᴍXsᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{Venomversion}`\n"
 rizoel += f"═══════════════════\n\n"   
 
                                   
@@ -41,11 +41,11 @@ async def alive(event):
                                   caption=rizoel,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/RiZoeLX"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DNHxHELL")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/lily_x_bots"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/venom_world_chatting_club")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/MrRizoel/SpamBot")
+        Button.url("• ʀᴇᴘᴏ •", "https://t.me/venom_world_chatting_club")
         ]
         ]
         )
@@ -110,7 +110,7 @@ async def ping(e):
 @Riz10.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "**Restarting Your RiZoeL X Spam**.. Please Wait Until It Starts Again"
+        text = "**Restarting Your Venom X Spam**.. Please Wait Until It Starts Again"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Riz.disconnect()
