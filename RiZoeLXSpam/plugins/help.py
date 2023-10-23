@@ -5,7 +5,7 @@ from time import time
 from datetime import datetime
 from RiZoeLXSpam import CMD_HNDLR as hl
     
-HELP_PIC = "https://telegra.ph/file/9acc785291052c8f8998d.jpg"
+HELP_PIC = "https://telegra.ph/file/47ee1b8464ab1fc5613f3.jpg"
 
 Riz_Help = "__Click On Below Buttons for help__"
 
